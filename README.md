@@ -1,3 +1,13 @@
+
+# Instruction How to Use App
+1-you can add item as you want in cart by pressing key add to cart.
+2-after add items to the cart you can go to the top right corner  cart icon by pressing and see all about you item.
+3-in the cart you can also remove item as you want before checkout.
+4-click on the signin link you get a login page.
+5-click on the signup link you get a signup page.
+6-authentication of login and signup process is incomplete.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
