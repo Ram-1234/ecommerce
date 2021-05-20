@@ -25,7 +25,7 @@ function Header() {
            src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
            src="https://s3images.coroflot.com/user_files/individual_files/large_1034266_a6053hjeuro6eezybm3mmlckh.jpg"
         /> */}
-       <h1 className="header__logo">ECOMM...</h1>
+       <h1 className="header__logo" style={{textDecoration:"none"}}>ECOMM...</h1>
       </Link>
 
       <div className="header__search">
@@ -41,11 +41,11 @@ function Header() {
           </div>
           </Link>
 
-          <div className="header__nav">
+          {/* <div className="header__nav">
             <Link to='/signup' className="header__link">
               <span className="header__signup">Signup</span>
             </Link>
-          </div>
+          </div> */}
     
 
         <Link to="/checkout">

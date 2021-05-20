@@ -6,9 +6,10 @@
   }
   
   .checkout__ad {
-    width: 150%;
-    height: 150px;
+    min-width: 200%;
+    max-height: 250px;
     margin-bottom: 10px;
+    border-radius: 0px 80px 80px 0px;
   }
   
   .checkout__title {
@@ -16,3 +17,5 @@
     padding: 10px;
     border-bottom: 1px solid lightgray;
   }
+
+  

@@ -5,14 +5,14 @@ import { useStateValue } from "./StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
 
 function Checkout() {
-  const [{ basket, user }, dispatch] = useStateValue();
+  const [{ basket, user }] = useStateValue();
 
   return (
     <div className="checkout">
       <div className="checkout__left">
         <img
           className="checkout__ad"
-          src="https://lh3.googleusercontent.com/proxy/DnzQs6QOZoaHuMwqUsNz3sSVpg-gumKW7gHj3YDnGUf9-0YSX5xK6UM2HBs4RKH0mDVcx9woerIqj-veF-Ipas6gUF9gZQ"
+          src="https://emailtuna.com/images/newsletter/179/179b8328d3e959f1b428ae67ec2547bf.jpg"
           //src="https://www.wondersmind.com/img/offer-banner.png"
           alt=""
         />

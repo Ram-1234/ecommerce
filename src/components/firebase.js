@@ -10,6 +10,12 @@ const firebaseConfig = {
     measurementId: "G-3E7V0ZBT7K"
   };
 
+  // if (!firebase.apps.length) {
+  //   firebase.initializeApp(firebaseConfig);
+  // } else {
+  //   firebase.app(); 
+  // }
+
   const firebaseApp=firebase.initializeApp(firebaseConfig);
 
   const db=firebaseApp.firestore();

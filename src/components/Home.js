@@ -14,6 +14,31 @@ export default function Home() {
 
                 <div className="home__row">
                     <Product
+                    id="12321432"
+                    title="Philips Trimmer"
+                    price={15.33}
+                    rating={5}
+                    image="https://images-na.ssl-images-amazon.com/images/I/51bjS6y64iL._AC_SX355_.jpg"
+                  />
+                    <Product
+                   id="49538547"
+                    title="Sony Xperia"
+                     price={305.45}
+                     rating={4}
+                     image="https://images-na.ssl-images-amazon.com/images/I/71xoD1b0KjL._AC_SL1500_.jpg"
+                     />
+                
+          <Product
+            id="4903456"
+            title="Dell Laptop"
+            price={730.99}
+            rating={4}
+            image="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6372/6372667cv20d.jpg"
+          />
+          </div>
+
+          <div className="home__row">
+                    <Product
                     id="12321341"
                     title="Leave the World Behind"
                     price={10.75}
@@ -23,7 +48,7 @@ export default function Home() {
                     <Product
                    id="49538094"
                     title="Kenwood Mixer"
-                     price={305.0}
+                     price={305.35}
                      rating={4}
                      image="https://cdn.shopify.com/s/files/1/0104/9211/7092/products/appliances-wonderchef-vietri-mixer-grinder-blue-500w-9991160987748_600x.jpg?v=1584610967"
                      />
@@ -36,6 +61,8 @@ export default function Home() {
             image="https://images-na.ssl-images-amazon.com/images/I/71fwbMm1NBL._AC_SL1500_.jpg"
           />
           </div>
+
+
           <div className="home__row">
           <Product
             id="23445930"
