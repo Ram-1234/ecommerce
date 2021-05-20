@@ -22,7 +22,6 @@ function Header() {
       <Link to="/">
         {/* <img
           className="header__logo"
-           src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
            src="https://s3images.coroflot.com/user_files/individual_files/large_1034266_a6053hjeuro6eezybm3mmlckh.jpg"
         /> */}
        <h1 className="header__logo" style={{textDecoration:"none"}}>{`ECOMM...`}</h1>
@@ -37,7 +36,7 @@ function Header() {
         <Link to='/login' className="header__link">
           <div onClick={handleAuthentication} className="header__option">
             <span className="header__optionLineOne">{!user? "Guest" : user.email}</span>
-            <span className="header__optionLineTwo">{user ? "Sign Out" : "Sign In"}</span>
+            <span className="header__optionLineTwo">{user ? "Sign Out" : "Register"}</span>
           </div>
           </Link>
 
