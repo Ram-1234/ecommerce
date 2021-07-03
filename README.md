@@ -12,7 +12,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Hosted Link: https://elated-pasteur-fcf174.netlify.app/
+Hosted Link: https://ecommerce-cinta.netlify.app/
 
 ## Available Scripts
 
